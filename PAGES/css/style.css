@@ -105,7 +105,7 @@ nav {
 
 .jumbotron {
   height: 50%;
-  width: 70%;
+  width: 50rem;
   opacity: 65%;
   margin: 5%;
 }
@@ -116,11 +116,11 @@ nav {
 #particles-js{
   position: absolute;
   width: 100%;
-  height: 100%;
-  background-color: #c3c3c3;
-  background-image: url('../../IMAGES/deinfinitis-heading.png');
+  height: auto;
+  background-color: #774040;
+  background-image: url('');
   background-size:cover;
   background-position: 50%, 50%;
-  background-repeat:no-repeat;
+  background-repeat:repeat;
   z-index: -1;
 }
