@@ -1,0 +1,25 @@
+{
+    "id": "001",
+    "mss_id": "add_6782",
+    "folio": {
+      "number": {},
+      "recto_verso": {}
+    },
+    "image": {
+      "image_id": "f362",
+      "image_url": "PAGES/mss-page-images/add_6782/add_6782_f362.jpg",
+      "thumbnail_url": "PAGES/mss-page-images/add_6782/thumbnails/add_6782_f362_tn.jpg",
+      "_isBlank": false
+    },
+    "transcription": {
+      "transcript_url": "",
+      "languages": ["lat", "eng"],
+      "transcribedBy": "Someone"
+    },
+    "commentary": {
+      "commentary_id": {},
+      "commentary_content": {},
+      "language": {},
+      "authoredBy": {}
+    }
+  }

@@ -16,6 +16,8 @@ function loadManuscriptImage(id)
     // "/mss-page-images/"+$mn+"/"+"$page"".
     // Ideally, we're calling the function at the "src=' '" in the img element.
 
+
+    
 }
 
 function loadManuscriptThumbnail(id)

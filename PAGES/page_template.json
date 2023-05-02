@@ -1,0 +1,25 @@
+{
+  "id": "e.g. add_6782_f246r",  
+  "mss_id": "e.g. 6782 ",
+    "folio": {
+      "number": "e.g. 246",
+      "recto_verso": "e.g. r" 
+    },
+    "image": {
+      "image_id": "e.g. add_6782_f246r)_jpg",
+      "image_url": "i.e. absolute URL to jpg in 'mss-page-images' folder",
+      "thumbnail_url": "i.e. absolute URL to jpg in 'thumbnails' folder",
+      "_isBlank": "e.g. false"
+    },
+    "transcription": {
+      "transcript_id": "e.g. add_6782_f246r_tr",
+      "transcript_url": "i.e. absolute URL to Markdown file",
+      "language": "e.g. latin, english, cypher",
+      "transcribedBy": "e.g. Engelbert Humperdink, Harry Bellafonte"
+    },
+    "commentary": {
+      "commentary_id": "e.g. add_6782_f246_com",
+      "commentary_url": "i.e. absolute URL to Markdown file",
+      "authoredBy": "e.g. Nina Simone"
+    }
+  }
