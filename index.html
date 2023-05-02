@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>De Infinitis - homepage</title>
-  <meta name="description" content="">
-  <meta name="author" content="Arnaud Zimmern" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <title>De Infinitis - homepage</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Arnaud Zimmern" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
     <!-- internal CSS tylesheet -->
-    <link rel="stylesheet" media="screen" href="/PAGES/css/style.css">
+    <link rel="stylesheet" media="screen" href="/PAGES/css/style.css" />
+
     <!-- Bootsrapr StyleSheet -->
     <link
       rel="stylesheet"
@@ -15,131 +20,186 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+
     <!-- KaTeX StyleSheet -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+      integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0"
+      crossorigin="anonymous"
+    />
+
     <!-- The loading of KaTeX is deferred to speed up page rendering -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+      integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4"
+      crossorigin="anonymous"
+    ></script>
+    
     <!-- To automatically render math in text elements, include the auto-render extension: -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="renderMathInElement(document.body, {
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+      integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body, {
           delimiters:[
             {left:'$$', right:'$$', display:true},
             {left:'$', right:'$', display:true }
           ],
           throwOnError: false
-        });"></script>
-</head>
+        });"
+    ></script>
 
-
-<body >
-<!-- particles.js CONTAINER/BACKGROUND -->
-  <div id="particles-js">
-  </div>
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-light navbar-light">
-    <a
-      class="navbar-brand"
-      href="#"
-      ><img src="/IMAGES/deinfinitis-heading_transparent.png" class="mr-2" style="height:50%; width: 50%;" /></a
-    ><button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbar-body"
-      aria-controls="navbar-body"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon" style="align-content: center; justify-content: center;"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-body">
-      <ul class="navbar-nav mr-auto"></ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Editors & Transcribers</a></li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            data-toggle="dropdown"
-            href="#"
-            role="button"
-            aria-haspopup="true"
-            aria-expanded="false"
-            >Docs</a
-          >
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Editorial Policy</a
-            ><a class="dropdown-item" href="#">LaTeX Policy</a
-            ><a class="dropdown-item" href="#">User Stories</a>
-          </div>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="#">Future Work</a></li>
-        
-      </ul>
-    </div>
-  </nav>
-  <!-- BUFFER -->
-  <div class="buffer">
-  </div>
-  <!-- JUMBOTRON -->
-  <div class="jumbotron" style="background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(159, 180, 144, 0.0)), no-repeat top left; background-size: cover;">
-    <h1 class="display-4 m-2" style="color:#ffffff !important;">De Infinitis</h1>
-    <h2 class="lead" style="color:#ffffff !important;">A Digital Edition of Thomas Harriot's <br/> algebraic and geometric papers<br/> on infinite series</h2>
-    <br/>
-    <p style="color:#ffffff !important;">edited by Robert Goulding and Stephen Clucas</p>
-    <div class="buffer">
-    </div>
-    <div class="btn-group-lg mt-3" role="group" style="align-content: center;">
-      <button class="btn btn-outline-light "><a href="" class="text-light">CONTENTS</a></button> 
-      <button class="btn btn-outline-light "><a href="" class="text-light">READ</a></button>
-    </div>
-  </div>
-  <!-- FOOTER -->
-  <footer>
-    <div class="col-4">
-      <img src="./IMAGES/nfcds_stacked_white.png" style="height:7.5em; width: auto;">
-      <img src="/IMAGES/InstituteforDataSociety_FullColor_Large.png" style="height:7.5em; width: auto;">
-      <!-- <img src="" style="height:10em; width: auto;">  -->
-    </div>
-  </footer>
-  
-  
-</body>
-
-
-<!-- scripts -->
-<script src="/JS/particles.js"></script>
-<script src="/PAGES/js/app.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script
+    <!-- scripts -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-<script
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
-<!-- <script src="js/main.js"></script> -->
-<!-- stats.js -->
-<script src="/PAGES/js/lib/stats.js"></script>
-<script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  // document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-       count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
+      crossorigin="anonymous"
+    ></script>
+    <!-- stats.js -->
+  </head>
+
+
+  <!-- BODY -->
+  <body>
+    <!-- particles.js CONTAINER/BACKGROUND -->
+    <div id="particles-js"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="/IMAGES/deinfinitis-heading_transparent.png"
+          class="mr-2"
+          style="height: 50%; width: 50%" /></a
+      ><button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar-body"
+        aria-controls="navbar-body"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span
+          class="navbar-toggler-icon"
+          style="align-content: center; justify-content: center"
+        ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-body">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Editors & Transcribers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Docs</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Editorial Policy</a
+              ><a class="dropdown-item" href="#">LaTeX Policy</a
+              ><a class="dropdown-item" href="#">User Stories</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Future Work</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- BUFFER -->
+    <div class="buffer"></div>
+
+    <!-- JUMBOTRON -->
+    <div
+      class="jumbotron"
+      style="
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(159, 180, 144, 0)),
+          no-repeat top left;
+        background-size: cover;
+      "
+    >
+      <h1 class="display-4 m-2" style="color: #ffffff !important">
+        De Infinitis
+      </h1>
+      <h2 class="lead" style="color: #ffffff !important">
+        A Digital Edition of Thomas Harriot's<br />
+        algebraic and geometric papers<br />
+        on infinite series
+      </h2>
+      <br />
+      <p style="color: #ffffff !important">
+        edited by Robert Goulding and Stephen Clucas
+      </p>
+      <div class="buffer"></div>
+      <div class="btn-group-lg mt-3" role="group" style="align-content: center">
+        <button class="btn btn-outline-light">
+          <a href="" class="text-light">CONTENTS</a>
+        </button>
+        <button class="btn btn-outline-light">
+          <a href="" class="text-light">READ</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="col-4">
+        <img
+          src="/IMAGES/nfcds_stacked_white.png"
+          style="height: 7.5em; width: auto"
+        />
+        <img
+          src="/IMAGES/InstituteforDataSociety_FullColor_Large.png"
+          style="height: 7.5em; width: auto"
+        />
+        <!-- <img src="" style="height:10em; width: auto;">  -->
+      </div>
+    </footer>
+
+  </body>
+
+  <script src="/JS/particles.js"></script>
+  <script src="/PAGES/js/app.js"></script>
+  <script src="/PAGES/js/lib/stats.js"></script>
+  <script>
+    var count_particles, stats, update;
+    stats = new Stats();
+    stats.setMode(0);
+    stats.domElement.style.position = "absolute";
+    stats.domElement.style.left = "0px";
+    stats.domElement.style.top = "0px";
+    // document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector(".js-count-particles");
+    update = function () {
+      stats.begin();
+      stats.end();
+      if (
+        window.pJSDom[0].pJS.particles &&
+        window.pJSDom[0].pJS.particles.array
+      ) {
+        count_particles.innerText =
+          window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
     requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-</script>
+  </script>
 </html>
