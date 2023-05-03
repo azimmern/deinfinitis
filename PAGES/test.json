@@ -1,25 +1,27 @@
 {
-    "id": "001",
-    "mss_id": "add_6782",
+  "id": "add-6782-f362r",  
+  "mss_id": "6782",
     "folio": {
-      "number": {},
-      "recto_verso": {}
+      "number": "362",
+      "recto_verso": "r" 
     },
     "image": {
-      "image_id": "f362",
+      "image_id": "add-6782-f362-r-jpg",
       "image_url": "PAGES/mss-page-images/add_6782/add_6782_f362.jpg",
       "thumbnail_url": "PAGES/mss-page-images/add_6782/thumbnails/add_6782_f362_tn.jpg",
-      "_isBlank": false
+      "_isBlank": "false"
     },
     "transcription": {
-      "transcript_url": "",
-      "languages": ["lat", "eng"],
-      "transcribedBy": "Someone"
+      "transcript_id": "e.g. add_6782_f246r_tr",
+      "transcript_url": "PAGES/mss-page-text/add_6782/add_6783_f362_tr.html",
+      "transcript-data": "structured HTML and KaTeX from Notion",
+      "language": "e.g. latin, english, cypher",
+      "transcribedBy": "e.g. Engelbert Humperdink, Harry Bellafonte"
     },
     "commentary": {
-      "commentary_id": {},
-      "commentary_content": {},
-      "language": {},
-      "authoredBy": {}
+      "commentary_id": "e.g. add_6782_f246_com",
+      "commentary_url": "i.e. absolute URL to Markdown file",
+      "commentary-data": "structured HTML and KaTeX from Notion",
+      "authoredBy": "e.g. Nina Simone"
     }
   }
