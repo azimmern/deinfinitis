@@ -6,7 +6,7 @@
       "recto_verso": "r" 
     },
     "image": {
-      "image_id": "add-6782-f362-r-jpg",
+      "image_id": "add-6782-f362-r",
       "image_url": "PAGES/mss-page-images/add_6782/add_6782_f362.jpg",
       "thumbnail_url": "PAGES/mss-page-images/add_6782/thumbnails/add_6782_f362_tn.jpg",
       "_isBlank": "false"
@@ -14,7 +14,8 @@
     "transcription": {
       "transcript_id": "e.g. add_6782_f246r_tr",
       "transcript_url": "PAGES/mss-page-text/add_6782/add_6783_f362_tr.html",
-      "transcript-data": "structured HTML and KaTeX from Notion",
+      "transcript-title": "",
+      "transcript-data": "<p>Harriot talking about maths</p>",
       "language": "e.g. latin, english, cypher",
       "transcribedBy": "e.g. Engelbert Humperdink, Harry Bellafonte"
     },

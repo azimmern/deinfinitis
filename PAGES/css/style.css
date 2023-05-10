@@ -105,9 +105,10 @@ nav {
 
 .jumbotron {
   height: 50%;
-  width: 50rem;
+  width: 95%;
   opacity: 65%;
-  margin: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
@@ -116,7 +117,7 @@ nav {
 #particles-js{
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100%;
   background-color: #774040;
   background-image: url('');
   background-size:cover;
